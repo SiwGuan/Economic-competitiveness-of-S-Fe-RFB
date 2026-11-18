@@ -1,0 +1,22 @@
+{
+  "power_kW": 1000,
+  "energy_kWh": 8000,
+  "duration_h": 8.0,
+  "OCV_V": 0.97,
+  "eta_rt": 0.81,
+  "energy_related_cost_EUR_per_kWh": 91.911154123981,
+  "power_related_cost_EUR_per_kW": 1028.7691168069468,
+  "active_area_m2_per_kW": 2.380317629584492,
+  "capital_cost_EUR": 1764058.3497987948,
+  "capital_cost_EUR_per_kWh": 220.50729372484935,
+  "LCOS_net_EUR_per_MWh": 157.76225046885804,
+  "LCOS_EUR_per_MWh": 291.2344846083629,
+  "lifetime_delivered_energy_kWh": 52532925.9744,
+  "discounted_lifetime_delivered_energy_kWh": 20788738.65332779,
+  "equity_present_value_EUR": 1411246.679839036,
+  "debt_payments_present_value_EUR": 268411.8265294952,
+  "replacement_present_value_EUR": 29123.14570982606,
+  "fixed_OM_present_value_EUR": 97102.76711625869,
+  "variable_OM_present_value_EUR": 808348.700612774,
+  "charging_loss_cost_present_value_EUR": 665445.0745505391
+}

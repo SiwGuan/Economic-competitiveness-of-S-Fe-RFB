@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": 5,
+  "python_versions": [
+    "3.12.14",
+    "3.13.13"
+  ],
+  "operating_system": "Windows",
+  "dependency_policy": "Python standard library only",
+  "command": "python -m unittest discover -s tests -v",
+  "checks_performed": [
+    "original checksum and equation-function identity",
+    "three scenario outputs versus archived source",
+    "global and default input override propagation",
+    "invalid-input guards",
+    "CLI exports and prevention of overwrites"
+  ],
+  "scope": "Software reproduction of the supplied S-Fe TEA model, not independent validation of scientific assumptions."
+}

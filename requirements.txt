@@ -1,0 +1,3 @@
+# The portable runner uses only the Python standard library.
+# Python 3.10 or newer is recommended; no pip packages are required.
+# The archived original script is preserved for provenance, not used as an entry point.

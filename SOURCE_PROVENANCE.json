@@ -1,0 +1,22 @@
+{
+  "source_file": "original/Fe-SRFB TEA.py",
+  "source_sha256": "33c2295cca15d32dd88bb0629d3e7fb337561ee4e5e00f6b98d5822d030c244e",
+  "preservation": "The original file is a byte-for-byte copy supplied by the author.",
+  "equation_functions": [
+    "bop_cost",
+    "additional_cost",
+    "electrolyte_energy_cost",
+    "calculate_system_cost",
+    "financing_model",
+    "lcos_replacement_cost",
+    "calculate_discharged_energy_cost",
+    "levelized_cost"
+  ],
+  "runtime_changes": [
+    "Extracted eight original equation functions without changing their source text.",
+    "Removed unused third-party imports from the portable model only.",
+    "Replaced implicit top-level execution with a separate standard-library command-line runner.",
+    "Added explicit source-default, 0.97 V / 4 h and 0.97 V / 8 h configuration files.",
+    "Kept all numerical cost, degradation, maintenance and financing conventions unchanged."
+  ]
+}
